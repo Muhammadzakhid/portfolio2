@@ -272,5 +272,22 @@ text-decoration: none;
 
 /* ----------------- Profile Page Section Begin ----------------- */
 
+.btn_cs2 {
+  border: 2px solid gray;
+  border-radius: 5px;
+  color: gray;
+  font-weight: 500;
+  font-size: 20px;
+}
+.btn_cs2:hover {
+  background-color: gray;
+  color: #fff;
+}
 
+.profile_img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
 /* ----------------- Profile Page Section End ----------------- */
