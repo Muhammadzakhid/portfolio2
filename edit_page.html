@@ -9,24 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <div class="d-flex justify-content-center pt-3 ">
+        <div class="d-flex justify-content-center py-4 my-3 ">
             <div class="p-4 max-width-lg bg-white border border-gray-200 rounded-lg drop-shadow md:p-8 lg:w-full col-md-4 col-sm-12 box">
                 <form>
+                    <label class="label-select" for="profile_img">Profile image</label>
+                    <input type="file" id="profile_img" name="profile_img" class="pb-3">
+
                     <label class="label-select" for="fname">First name</label>
-                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="text" id="fname" name="fname" required>
+                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="text" id="fname" name="fname" placeholder="Muhammadzakhid">
                     
                     <label class="label-select" for="lname">Last name</label>
-                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="text" id="lname" name="lname" required>
+                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="text" id="lname" name="lname" placeholder="Nurmirzayev">
                     
                     <label class="label-select" for="email">Email</label>
-                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="email" id="email" name="email" required>
+                    <input class="form-control w-full p-2.5 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block" type="email" id="email" name="email" placeholder="m92817516@gmail.com">   
                     
-                    <label class="label-select" for="password">Password</label>
-                    <input type="password" class="form-control bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" id="password" name="password" required>     
-                    
-                    <p class="text-sm font-normal-with-semibold-anchor text-gray-500">Already have an account? <a href="./sign_in.html" style="color:#1C64F2" class="no-underline">Login</a></p>
-                    
-                    <a href="./profile.html" class="btn btn_cs text_cs col-12">Register</a>
+                    <a href="./profile.html" class="btn btn_cs text_cs col-12">Change</a>
                 </form>
             </div>
         </div>
